@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <title>SZEOL FC</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://azanyaotthon.hu/public/js/active.js"></script>
+</head>
+<body>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Logo -->
+    <img src="logo.png" id="logo" alt="logo" width="120" height="150">
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark navigation">
+        <ul class="navbar-nav menu bg-primary">
+          <li class="active nav-item"><a class="nav-link" href="#">Kezdőlap</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Rólunk</a></li>
+          <li class="nav-item"><a class="nav-link"href="#">Hírek</a></li>
+          <li class="nav-item"><a class="nav-link"href="#">Munkatársak</a></li>
+          <li class="nav-item"><a class="nav-link"href="#">Csapataink</a></li>
+          <li class="nav-item"><a class="nav-link"href="#">Bajnokságok</a></li>
+          <li class="nav-item"><a class="nav-link"href="#">Kapcsolat</a></li>
+        </ul>
+        <!--<form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>-->
+        <a href="#" data-toggle="popover" data-content="Search" style="margin-left: 10px"><img src="search.png" width="20px" height="20px"></a>
+        <a href="#" data-toggle="popover" data-content="Search"><img src="stripes.png" width="40px" height="40px"></a>
+    </nav>
+    <!-- Slide kezdete -->
+    <div class="carousel-item active">
+      <img src="slide1.jpg" alt="slide1" width="1100" height="500">
+      <div class="slide-textbox">
+        <p>Ide kerül a slide szövege</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide2.jpg" alt="slide2" width="1100" height="500">
+      <div class="slide-textbox">
+        <p>Ide kerül a slide szövege</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide3.jpg" alt="slide3" width="1100" height="500">
+      <div class="slide-textbox">
+        <p>Ide kerül a slide szövege</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide4.jpg" alt="slide4" width="1100" height="500">
+      <div class="slide-textbox">
+        <p>Ide kerül a slide szövege</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide5.jpg" alt="slide5" width="1100" height="500">
+      <div class="slide-textbox">
+        <p>Ide kerül a slide szövege</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide6.jpg" alt="slide6" width="1100" height="500">
+      <div class="slide-textbox">
+        <p>Ide kerül a slide szövege</p>
+      </div>   
+    </div>
+  </div>
+  <!-- Slide gombok -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</body>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
