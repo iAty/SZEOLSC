@@ -9,9 +9,9 @@
 .owl-nav button{
     background-color: rgba(0, 0, 0, 0.2) !important;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    line-height: 60px !important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px !important;
     display: inline-block;
     text-align: center;
 }
@@ -29,7 +29,7 @@
 .owl-nav span {
     color: rgb(255, 255, 255);
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .slider img {

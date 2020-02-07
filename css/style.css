@@ -1,3 +1,49 @@
 body {
+    width: 80%;
+    margin: 0 auto;
     font-family: sans-serif;
+}
+
+/* Logo and Navbar */
+header #logo {
+    position: absolute;
+    top: 10px;
+	left: 18%;
+	z-index: 2;
+}
+
+.navigation {
+	position: absolute;
+	z-index: 2;
+	top: 20px;
+    right: 15%;
+}
+
+.navigation ul {
+    height: 50px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+.navigation li {
+    width: 100px;
+    text-align: center;
+}
+
+/* Textbox */
+.slide-textbox {
+	position: absolute;
+	bottom: 25%;
+	right: 10%;
+	padding: 40px 30px;
+	background: rgba(0,0,0,0.2);
+	height: 40%;
+	width: 40%;
+}
+.slide-textbox p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0px;
 }
