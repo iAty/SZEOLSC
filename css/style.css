@@ -12,22 +12,32 @@ header #logo {
 	z-index: 2;
 }
 
-.navigation {
+header .navigation {
 	position: absolute;
 	z-index: 2;
 	top: 20px;
     right: 15%;
 }
 
-.navigation ul {
-    height: 50px;
+header .navigation ul {
+    height: 60px;
     align-items: center;
     background-color: rgba(0,0,0,0.2) !important;
 }
 
-.navigation li {
-    width: 100px;
-    text-align: center;
+header .navigation ul li {
+	text-align: center;
+	font-size: 24px;
+}
+
+header .navigation .icons {
+	margin: 10px;
+}
+
+header .navigation .icons a {
+	color: rgb(255, 255, 255);
+	font-size: 1.5rem;
+	margin: 5px;
 }
 
 /* Textbox */
