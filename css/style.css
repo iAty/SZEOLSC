@@ -10,7 +10,11 @@
 	width: 100%;
 }
 
+<<<<<<< HEAD
 .container img {
+=======
+header .navigation {
+>>>>>>> 63df257245f95d9c967f9ece0c4d5b4ca23f14c9
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -27,6 +31,7 @@
 	color: rgb(255, 255, 255);
 }
 
+<<<<<<< HEAD
 .container .row .box-left img {
 	height: 400px;
 	transform: translate(0,-50%);
@@ -56,6 +61,27 @@
 	position: absolute;
 	top: 50%;
 	transform: translate(-50%,-50%);
+=======
+header .navigation ul {
+    height: 60px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+header .navigation ul li {
+	text-align: center;
+	font-size: 24px;
+}
+
+header .navigation .icons {
+	margin: 10px;
+}
+
+header .navigation .icons a {
+	color: rgb(255, 255, 255);
+	font-size: 1.5rem;
+	margin: 5px;
+>>>>>>> 63df257245f95d9c967f9ece0c4d5b4ca23f14c9
 }
 
 .carousel .carousel-control-next {
